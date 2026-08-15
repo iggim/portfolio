@@ -83,7 +83,7 @@ export default function Home() {
     <main>
       <header className="site-header wrap">
         <a className="wordmark" href="#top" aria-label="Ivan Milovanović, home">
-          Ivan Milovanović
+          IM<span>.</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#experience">Experience</a>
@@ -99,7 +99,8 @@ export default function Home() {
       </header>
 
       <section className="hero wrap" id="top">
-        <div className="eyebrow"><span /> Berlin, Germany · Backend systems</div>
+        <p className="hero-name">Ivan Milovanović</p>
+        <div className="eyebrow"><span /> Senior Backend Software Engineer</div>
         <h1>Engineering systems<br />that hold up<br /><em>under pressure.</em></h1>
         <div className="hero-bottom">
           <p className="intro">
