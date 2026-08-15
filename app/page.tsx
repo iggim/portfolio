@@ -83,7 +83,8 @@ export default function Home() {
     <main>
       <header className="site-header wrap">
         <a className="wordmark" href="#top" aria-label="Ivan Milovanović, home">
-          IM<span>.</span>
+          <span className="wordmark-mark" aria-hidden="true">IM<span>.</span></span>
+          <span className="wordmark-name">Ivan Milovanović</span>
         </a>
         <nav aria-label="Primary navigation">
           <a href="#experience">Experience</a>
